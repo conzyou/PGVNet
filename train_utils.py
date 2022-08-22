@@ -534,5 +534,4 @@ if __name__ == '__main__':
             current_train_multi_views = np.array(current_train_multi_views)
             print(current_train_multi_views.shape)
 
-    t = (time.time() - start)
-    print("running time:{:.2f} s\n".format(t))
+    print("running time:{:.2f} s\n".format(time.time() - start))
